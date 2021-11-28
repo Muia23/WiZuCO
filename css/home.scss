@@ -1,0 +1,242 @@
+.logo {
+    text-align: center;
+    font-family: "Permanent Marker"; 
+    font-size: 26px;    
+    margin-left: 50px;
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px #fda827;    
+}
+
+.prod_card {
+    width: 100%;
+    height: 420px;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 5px #ebebeb;
+    border: none;
+}
+
+.img_holder {
+    height: 60%;
+    background-size: contain;  
+    padding: 10px;  
+}
+
+
+.prod_img {
+    width: 100%;
+    height: 130%;
+    min-height: 155px;
+    max-height: 200px;
+    background-size: contain;     
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-title {
+    padding: 5px;
+    color: #d8621d;
+}
+
+#quantity1 {
+    width: 30px;
+    border: none;
+    font-size: 19px;    
+    padding: 0;
+    text-align: center;
+}
+
+#quantity2 {
+    width: 30px;
+    border: none;
+    font-size: 19px;    
+    padding: 0;
+    text-align: center;
+}
+#quantity3 {
+    width: 30px;
+    border: none;
+    font-size: 19px;    
+    padding: 0;
+    text-align: center;
+}
+#quantity4 {
+    width: 30px;
+    border: none;
+    font-size: 19px;    
+    padding: 0;
+    text-align: center;
+}
+
+#quantity5 {
+    width: 30px;
+    border: none;
+    font-size: 19px;    
+    padding: 0;
+    text-align: center;
+}
+
+#quantity6 {
+    width: 30px;
+    border: none;
+    font-size: 19px;    
+    padding: 0;
+    text-align: center;
+}
+
+#quantity7 {
+    width: 30px;
+    border: none;
+    font-size: 19px;    
+    padding: 0;
+    text-align: center;
+}
+
+#quantity8 {
+    width: 30px;
+    border: none;
+    font-size: 19px;    
+    padding: 0;
+    text-align: center;
+}
+
+#quantity9 {
+    width: 30px;
+    border: none;
+    font-size: 19px;    
+    padding: 0;
+    text-align: center;
+}
+
+.btn_minus {
+    background:#d8621de5;
+    padding: 0 5px;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    border-radius: 50%;
+    margin-top: -8px;
+}
+
+.btn_minus:disabled {
+    background:#d8621d4f !important;
+}
+
+.btn_minus span {
+    color: white;
+    font-size: 25px;    
+    top: -13px;
+    left: 4px;
+    position: absolute;
+}
+
+.btn_plus {
+    background:#d8621de5;
+    padding: 0 5px;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    border-radius: 50%;
+    margin-top: -8px;
+}
+
+.btn_plus span {
+    color: white;
+    font-size: 23px;    
+    top: -11px;
+    left: 1px;
+    position: absolute;
+}
+
+// .plus-btn2 {
+//     background:#d8621de5;
+//     padding: 0 5px;
+//     height: 20px;
+//     width: 20px;
+//     position: relative;
+//     border-radius: 50%;
+//     margin-top: -8px;
+// }
+
+// .plus-btn2 span {
+//     color: white;
+//     font-size: 23px;    
+//     top: -11px;
+//     left: 1px;
+//     position: absolute;
+// }
+
+// .minus-btn2 {
+//     background:#d8621de5;
+//     padding: 0 5px;
+//     height: 20px;
+//     width: 20px;
+//     position: relative;
+//     border-radius: 50%;
+//     margin-top: -8px;
+// }
+
+// .minus-btn2:disabled {
+//     background:#d8621d4f !important;
+// }
+
+// .minus-btn2 span {
+//     color: white;
+//     font-size: 25px;    
+//     top: -13px;
+//     left: 4px;
+//     position: absolute;
+// }
+
+.total-price {
+    text-align: center;
+    padding: 3px 0;
+    font-size: 30px;
+}
+
+.total-price .currency{
+    font-size: 19px;
+    color: #d8621de5;
+    margin-left: -30px;    
+}
+
+
+.card-footer {
+  margin-top: -5%;
+  text-align: center;  
+  background-size: contain;  
+  border-top: solid 1px #d8621de5;
+}
+
+.add_cart {
+  background:#d8621de5;
+  color: white;
+  font-weight: 600;
+  margin: 2px 0;
+  padding: 3px 10px;
+}
+
+
+.shopping-cart {
+  height: auto;  
+  min-height: 10vh;
+  width: 100%;
+  right: 2%;  
+  border-width: solid black 1px;
+  overflow-y: auto;
+  z-index: 20;
+}
+
+.shopping-cart-title {
+    text-align: center;    
+}
+
+
+.cartImg > img {
+    width:100px;
+    height: 100px;
+}
+
